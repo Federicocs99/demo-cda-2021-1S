@@ -9,5 +9,7 @@ RUN apt-get install -yq  build-essential \
     python3-pip \
     python3-dev \       
     python3-venv
+RUN apt-get install -yq curl
+
 
 ENTRYPOINT bash
